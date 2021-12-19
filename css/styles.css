@@ -156,3 +156,43 @@ header .container {
   padding: 23px 35px 23px 35px;
   box-sizing: border-box;
 }
+
+/* Section2   Feature Split Right */
+
+.split-section {
+  background-color: var(--grey-color);
+  width: auto;
+  margin: 0 auto;
+}
+.split-section .container {
+  width: auto;
+  padding: 0;
+  display: flex;
+}
+
+.split-text {
+  padding: 164px 166px 104px 112px;
+}
+.split-text h2 {
+  font-size: 32px;
+  margin-bottom: 23px;
+}
+.split-text p {
+  margin-bottom: 52px;
+  font-size: 20px;
+  width: 441px;
+}
+.split-text a {
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--white-color);
+  background-color: var(--orange-color);
+
+  border-radius: 5px;
+
+  padding: 21px 46px 21px 47px;
+  box-sizing: border-box;
+}
+.split img {
+  width: 50%;
+}
